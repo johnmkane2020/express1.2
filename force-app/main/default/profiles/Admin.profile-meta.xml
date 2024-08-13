@@ -22,6 +22,11 @@
         <field>Case.Support_Level__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Priority__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Bicycle__c-Bicycle Layout</layout>
     </layoutAssignments>
@@ -30,6 +35,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Formato de Cerrar caso</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Formato de oportunidades</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
