@@ -3,7 +3,7 @@
     <fullName>AI_Level__c</fullName>
     <externalId>false</externalId>
     <label>AI Level</label>
-    <precision>2</precision>
+    <precision>3</precision>
     <required>false</required>
     <scale>0</scale>
     <trackFeedHistory>false</trackFeedHistory>
