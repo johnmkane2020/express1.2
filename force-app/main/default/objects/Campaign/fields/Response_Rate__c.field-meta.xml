@@ -3,7 +3,7 @@
     <fullName>Response_Rate__c</fullName>
     <externalId>false</externalId>
     <label>Response Rate</label>
-    <precision>4</precision>
+    <precision>6</precision>
     <required>false</required>
     <scale>0</scale>
     <type>Number</type>
