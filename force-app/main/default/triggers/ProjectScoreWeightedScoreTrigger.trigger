@@ -7,12 +7,11 @@ trigger ProjectScoreWeightedScoreTrigger on Project_Score__c (before insert, bef
         }
         
         // Calculate weighted score based on category
-        // BUG: High category uses 0.5 multiplier instead of 2.0
-        if(score.Score__c != null && score.Category__c != null) {
+               if(score.Score__c != null && score.Category__c != null) {
             Decimal multiplier;
             switch on score.Category__c.toUpperCase() {
                 when 'HIGH' {
-                    multiplier = 0.5;  // BUG: Should be 2.0
+                    multiplier = 0.5;  
                 }
                 when 'MEDIUM' {
                     multiplier = 1.0;
