@@ -3,7 +3,7 @@
     <fullName>Support_Level__c</fullName>
     <externalId>false</externalId>
     <label>Support Level</label>
-    <precision>5</precision>
+    <precision>7</precision>
     <required>false</required>
     <scale>0</scale>
     <trackFeedHistory>false</trackFeedHistory>
