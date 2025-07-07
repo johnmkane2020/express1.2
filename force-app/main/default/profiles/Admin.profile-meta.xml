@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+    <applicationVisibilities>
+        <application>Project_Score_Tracker</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>ProjectScoreWeightedScoreTriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Support_Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Project_Score__c.Weighted_Score__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -13,12 +27,28 @@
     <layoutAssignments>
         <layout>CaseClose-Formato de Cerrar caso</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Score__c-Project Score Layout</layout>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
         <description>All</description>
         <endAddress>255.255.255.255</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Project_Score__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <tabVisibilities>
+        <tab>Project_Score__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
@@ -47,6 +77,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApprovalAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApprovalDesigner</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -274,6 +312,18 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ExternalClientAppAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppDeveloper</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppViewer</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>FreezeUsers</name>
     </userPermissions>
     <userPermissions>
@@ -403,6 +453,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageExchangeConfig</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageFilesAndAttachments</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -687,6 +741,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewClientSecret</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewContentTaxonomy</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
