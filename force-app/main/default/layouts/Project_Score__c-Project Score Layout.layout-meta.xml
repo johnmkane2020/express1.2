@@ -22,6 +22,10 @@
                 <behavior>Edit</behavior>
                 <field>Weighted_Score__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Tier__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
