@@ -155,9 +155,10 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Child Sports &amp; Health</label>
     <nameField>
+        <displayFormat>{000000}</displayFormat>
         <label>Child Sports &amp; Health Name</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Children&apos;s Sports &amp; Health</pluralLabel>
     <searchLayouts />
